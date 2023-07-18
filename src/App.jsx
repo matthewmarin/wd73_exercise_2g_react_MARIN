@@ -1,7 +1,18 @@
+import Navbar from "./components/Navbar.jsx"
+import Footer from "./components/Footer.jsx"
+import MainContainer from "./components/MainContainer.jsx"
+
+
 function App() {
+
+  
+  
   return (
     <>
-      <h1>Hello World</h1>
+      <Navbar/>
+      <MainContainer/>
+      <Footer/>
+      
     </>
   )
 }
